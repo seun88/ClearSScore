@@ -1,0 +1,345 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-02T09:28:42.892Z",
+        "line": 14,
+        "name": "Customer logs in with valid details",
+        "description": "",
+        "id": "log-in;customer-logs-in-with-valid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12256820700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i navigate to clearscore web",
+            "match": {
+              "location": "LoginSteps.i_navigate_to_clearscore_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 603300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input \"seunakinbode@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seunakinbode@yahoo.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input \"Serah1988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Serah1988\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click login button",
+            "match": {
+              "location": "LoginSteps.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am logged in",
+            "match": {
+              "location": "LoginSteps.i_am_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-02T09:28:55.187Z",
+        "line": 15,
+        "name": "Customer logs in with valid details",
+        "description": "",
+        "id": "log-in;customer-logs-in-with-valid-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10017841800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i navigate to clearscore web",
+            "match": {
+              "location": "LoginSteps.i_navigate_to_clearscore_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 193000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input \"yemisi91@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yemisi91@hotmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "input \"Qualityanalyst1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualityanalyst1\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click login button",
+            "match": {
+              "location": "LoginSteps.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am logged in",
+            "match": {
+              "location": "LoginSteps.i_am_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-02T09:29:05.209Z",
+        "line": 26,
+        "name": "Customer logs in with invalid details",
+        "description": "",
+        "id": "log-in;customer-logs-in-with-invalid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7535801300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i navigate to clearscore web",
+            "match": {
+              "location": "LoginSteps.i_navigate_to_clearscore_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "input \"seunakinbode@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seunakinbode@yahoo.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "input \"Serah1988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Serah1988\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i click login button",
+            "match": {
+              "location": "LoginSteps.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i am logged in",
+            "match": {
+              "location": "LoginSteps.i_am_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-02T09:29:12.749Z",
+        "line": 27,
+        "name": "Customer logs in with invalid details",
+        "description": "",
+        "id": "log-in;customer-logs-in-with-invalid-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7409811700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i navigate to clearscore web",
+            "match": {
+              "location": "LoginSteps.i_navigate_to_clearscore_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "input \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "input \"Qualityanalyst1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualityanalyst1\"",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSteps.input(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i click login button",
+            "match": {
+              "location": "LoginSteps.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i am logged in",
+            "match": {
+              "location": "LoginSteps.i_am_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Log in",
+    "description": "  As a registered customer\n  i would like to log into my account",
+    "id": "log-in",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/ClearScore/features/CustomerCanLogin.feature",
+    "tags": []
+  }
+]
